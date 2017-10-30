@@ -1,0 +1,9 @@
+@mixin navbar($color, $bg, $border){
+		color: $color;
+		background-color: $bg;
+		border: $border;
+}
+
+.navbar{
+	@include navbar(#48203d, #fff, 1px);
+}

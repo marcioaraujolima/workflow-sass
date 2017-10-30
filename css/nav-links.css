@@ -1,0 +1,9 @@
+.links, .links:hover {
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none; }
+
+.links:hover {
+  background-color: #48203d;
+  color: #fff; }

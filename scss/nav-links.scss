@@ -1,0 +1,16 @@
+%links{
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+.links{
+	@extend %links;
+}
+
+.links:hover{
+	@extend %links;
+	background-color: #48203d;
+	color: #fff;
+}
